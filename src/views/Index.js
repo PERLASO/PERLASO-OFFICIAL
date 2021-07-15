@@ -14,10 +14,10 @@ export default function Index() {
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="font-semibold text-4xl text-blueGray-600">
-              Modern Generation Specialist for software solutions
+                Modern Generation Specialist for software solutions
               </h2>
               <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                Deserunt eiusmod tempor aliquip esse occaecat ipsum irure esse veniam duis ea minim sunt cupidatat.
+                The leading Software Solutions providers in Sri Lanka
               </p>
               <div className="mt-12">
                 <a
@@ -68,7 +68,6 @@ export default function Index() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
-
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
@@ -89,7 +88,7 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Web Development
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Putting together a page has never been easier than matching
@@ -121,7 +120,7 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Mobile Application Development
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Putting together a page has never been easier than matching
@@ -153,7 +152,7 @@ export default function Index() {
                     ></polygon>
                   </svg>
                   <h4 className="text-xl font-bold text-white">
-                    Great for your awesome project
+                    Graphic design
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Putting together a page has never been easier than matching
