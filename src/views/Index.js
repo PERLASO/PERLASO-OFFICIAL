@@ -44,6 +44,14 @@ export default function Index() {
           src={require("assets/img/test.gif").default}
           alt="..."
         />
+        
+      </section>
+      <section>
+      <div className="justify-center text-center flex flex-wrap mt-24">
+          <div className="w-full md:w-6/12 px-12 md:px-4">
+            <h2 className="font-semibold text-4xl">OUR SERVICES</h2>
+          </div>
+        </div>
       </section>
 
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
@@ -104,7 +112,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src="https://images.unsplash.com/photo-1541345023926-55d6e0853f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -136,7 +144,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                 <img
                   alt="..."
-                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
+                  src="https://cdesignc.co.za/wp-content/uploads/2020/08/1572855136-393487-graphicdesignsoftwarejpg.jpg"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -155,10 +163,9 @@ export default function Index() {
                     Graphic design
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Putting together a page has never been easier than matching
-                    together pre-made components. From landing pages
-                    presentation to login areas, you can easily customise and
-                    built your pages.
+                    Every element that you need in a product comes built in as a
+                    component. All components fit perfectly with each other and
+                    can have different colours.
                   </p>
                 </blockquote>
               </div>
@@ -173,14 +180,14 @@ export default function Index() {
                 <i className="fas fa-sitemap text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                CSS Components
+                | ABOUT US
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4  mb-4 text-blueGray-600">
                 Every element that you need in a product comes built in as a
                 component. All components fit perfectly with each other and can
                 have different colours.
               </p>
-              <div className="block pb-6">
+              {/* <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Buttons
                 </span>
@@ -205,10 +212,9 @@ export default function Index() {
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
                   Typography
                 </span>
-              </div>
+              </div> */}
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
+                href=""
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 View All{" "}
@@ -256,10 +262,6 @@ export default function Index() {
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -267,14 +269,10 @@ export default function Index() {
                         src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Svelte
+                        HTML
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
+
                     <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -285,11 +283,6 @@ export default function Index() {
                         ReactJS
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -300,13 +293,8 @@ export default function Index() {
                         NextJS
                       </p>
                     </div>
-                  </a>
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                       <img
                         alt="..."
@@ -317,11 +305,6 @@ export default function Index() {
                         JavaScript
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -332,11 +315,6 @@ export default function Index() {
                         Angular
                       </p>
                     </div>
-                  </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
                     <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
@@ -347,7 +325,6 @@ export default function Index() {
                         Vue.js
                       </p>
                     </div>
-                  </a>
                 </div>
               </div>
             </div>
@@ -357,51 +334,28 @@ export default function Index() {
                 <i className="fas fa-drafting-compass text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+                What We Use
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We created a set of Components that are dynamic and come to help
-                you.
+                Cutting edge technologies with frequent updates.
               </p>
               <div className="block pb-6">
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
+                  HTML
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
+                  CSS
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
+                  Java Script
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
+                  Flutter
                 </span>
                 <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
+                  Xamarin
                 </span>
               </div>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
-              >
-                View all{" "}
-                <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-              </a>
             </div>
           </div>
         </div>
@@ -482,7 +436,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-
+{/* 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
@@ -492,10 +446,10 @@ export default function Index() {
               start playing with them.
             </p>
           </div>
-        </div>
+        </div> */}
       </section>
 
-      <section className="block relative z-1 bg-blueGray-600">
+      {/* <section className="block relative z-1 bg-blueGray-600">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -548,9 +502,9 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="py-20 bg-blueGray-600 overflow-hidden">
+      {/* <section className="py-20 bg-blueGray-600 overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
@@ -591,9 +545,9 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="pb-16 bg-blueGray-200 relative pt-32">
+      {/* <section className="pb-16 bg-blueGray-200 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -651,7 +605,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );
