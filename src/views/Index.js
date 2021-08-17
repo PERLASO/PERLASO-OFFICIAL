@@ -44,10 +44,9 @@ export default function Index() {
           src={require("assets/img/test.gif").default}
           alt="..."
         />
-        
       </section>
       <section>
-      <div className="justify-center text-center flex flex-wrap mt-24">
+        <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">OUR SERVICES</h2>
           </div>
@@ -178,69 +177,69 @@ export default function Index() {
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        HTML
-                      </p>
-                    </div>
+                  <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      HTML
+                    </p>
+                  </div>
 
-                    <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
-                      </p>
-                    </div>
-                    <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        NextJS
-                      </p>
-                    </div>
+                  <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      ReactJS
+                    </p>
+                  </div>
+                  <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      NextJS
+                    </p>
+                  </div>
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                    <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
-                      </p>
-                    </div>
-                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
-                      </p>
-                    </div>
-                    <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
-                      />
-                      <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
-                      </p>
-                    </div>
+                  <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      JavaScript
+                    </p>
+                  </div>
+                  <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      Angular
+                    </p>
+                  </div>
+                  <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <img
+                      alt="..."
+                      className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                      src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                    />
+                    <p className="text-lg text-white mt-4 font-semibold">
+                      Vue.js
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -326,12 +325,18 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card-waruna.png").default}
+                  src={
+                    require("assets/img/component-profile-card-waruna.png")
+                      .default
+                  }
                   className="w-full align-middle rounded-lg absolute shadow-lg -top-150-px left-260-px max-w-210-px"
                 />
-                 <img
+                <img
                   alt="..."
-                  src={require("assets/img/component-profile-card-vijitha.png").default}
+                  src={
+                    require("assets/img/component-profile-card-vijitha.png")
+                      .default
+                  }
                   className="w-full align-middle rounded-lg absolute shadow-lg -top-150-px left-2 0-px max-w-210-px"
                 />
               </div>
@@ -403,19 +408,49 @@ export default function Index() {
             </div>
 
             <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-              <img
-                alt="..."
-                className="max-w-full rounded-lg shadow-xl"
-                style={{
-                  transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                }}
-                src={require("assets/img/documentation.png").default}
-              />
+              <div
+                itemScope
+                itemType="http://schema.org/Person"
+                className="fiverr-seller-widget"
+                style={{ display: "inline-block" }}
+              >
+                <a
+                  itemProp="url"
+                  href="https://www.fiverr.com/vijithamahesh"
+                  rel="nofollow"
+                  target="_blank"
+                  style={{ display: "inline-block" }}
+                >
+                  <div
+                    className="fiverr-seller-content"
+                    id="fiverr-seller-widget-content-b65cd702-b301-4faf-97c7-836640d9329a"
+                    itemProp="contentURL"
+                    style={{ display: "none" }}
+                  />
+                  <div
+                    id="fiverr-widget-seller-data"
+                    style={{ display: "none" }}
+                  >
+                    <div itemProp="name">vijithamahesh</div>
+                    <div itemScope itemType="http://schema.org/Organization">
+                      <span itemProp="name">Fiverr</span>
+                    </div>
+                    <div itemProp="jobtitle">Seller</div>
+                    <div itemProp="description">
+                      Hey, I am Mahesh, a Computer Science graduate, Web
+                      developer, Mobile developer and Graphic designer. Up to
+                      now I have participated lot of web and mobile projects as
+                      a developer and a designer. You will get excellent and
+                      accurate results with 100% satisfaction. feel free to
+                      contact me.
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-{/* 
+        {/* 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
             <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
@@ -525,7 +560,6 @@ export default function Index() {
           </div>
         </div>
       </section> */}
-
       {/* <section className="pb-16 bg-blueGray-200 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"

@@ -16,7 +16,7 @@ export default function Navbar(props) {
               to="/"
               className="text-blueGray-900 text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             >
-             PERLASO
+              PERLASO
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -33,7 +33,6 @@ export default function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <a
@@ -69,7 +68,7 @@ export default function Navbar(props) {
               </li>
 
               <li className="flex items-center">
-              <a
+                <a
                   className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://github.com/creativetimofficial/notus-react?ref=nr-index-navbar"
                   target="_blank"
