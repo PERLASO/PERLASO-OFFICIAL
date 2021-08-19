@@ -129,7 +129,7 @@ export default function Index() {
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
                     Take your business & barand on onother level.
-                    we offer any type of mobile application decelopment
+                    we offer any type of mobile application development
                     service to build best in class mobile apps to keep you
                     ahead of the curve
                   </p>
